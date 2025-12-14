@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+title: >-
+  ARISE: Awakening & Respiratory Integration for Safe
+  Extubation
+message: >-
+  If you use this software in academic work, please cite it
+  using the metadata from this file.
+type: software
+authors:
+  - name: "ARISE Development Team"
+    affiliation: "Medical Intensive Care Unit"
+repository-code: 'https://github.com/shoyu21/ARISE'
+url: 'https://shoyu21.github.io/ARISE'
+abstract: >-
+  ARISE is an evidence-synthesized clinical decision support
+  tool designed to assist ICU healthcare professionals in
+  making informed decisions about ventilator weaning and
+  extubation readiness. The tool integrates three assessment
+  modes (Quick SAT, Quick SBT, Full Assessment) with
+  comprehensive evidence tooltips, auto-calculated
+  parameters, and special population considerations.
+keywords:
+  - ICU
+  - extubation
+  - mechanical ventilation
+  - weaning
+  - clinical decision support
+  - evidence-based medicine
+  - intensive care
+  - respiratory therapy
+  - SAT
+  - SBT
+  - ICU liberation
+license: LicenseRef-Proprietary
+version: 3.7.1
+date-released: '2024-12-15'
