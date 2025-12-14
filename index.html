@@ -797,7 +797,7 @@ body {
                 </div>
                 <div class="calc-display" style="margin-top: 12px;">
                     <div class="label">GCS Total</div>
-                    <div id="full-gcs-total" class="value good">E4VTM6</div>
+                    <div id="full-gcs-total" class="value">—</div>
                     <div id="gcs-interpretation" style="font-size: 0.75rem; color: var(--color-success);">Target met</div>
                 </div>
             </div>
@@ -816,18 +816,19 @@ body {
                         </div>
                     </label>
                     <select id="full-rass" onchange="updateCalculations()">
+                        <option value="" selected disabled>Select RASS...</option>
                         <option value="-5">-5: Unarousable</option>
                         <option value="-4">-4: Deep sedation</option>
                         <option value="-3">-3: Moderate sedation</option>
                         <option value="-2">-2: Light sedation</option>
                         <option value="-1">-1: Drowsy</option>
-                        <option value="0" selected>0: Alert & calm</option>
+                        <option value="0">0: Alert & calm</option>
                         <option value="1">+1: Restless</option>
                         <option value="2">+2: Agitated</option>
                         <option value="3">+3: Very agitated</option>
                         <option value="4">+4: Combative</option>
                     </select>
-                    <span class="hint" id="rass-status" style="color: var(--color-success);">Optimal</span>
+                    <span class="hint" id="rass-status" style="color: var(--text-muted);">—</span>
                 </div>
                 <div class="input-item">
                     <label>
@@ -843,22 +844,22 @@ body {
                         </div>
                     </label>
                     <input type="number" id="full-cpot" value="" placeholder="0-8" min="0" max="8" onchange="updateCalculations()">
-                    <span class="hint" id="cpot-status" style="color: var(--color-success);">Pain controlled</span>
+                    <span class="hint" id="cpot-status" style="color: var(--text-muted);">—</span>
                 </div>
             </div>
             
             <div class="neuro-status-grid">
                 <div class="neuro-status-item">
                     <div class="label">Consciousness</div>
-                    <div id="neuro-consciousness" class="value" style="color: var(--color-success);">Alert</div>
+                    <div id="neuro-consciousness" class="value" style="color: var(--text-muted);">—</div>
                 </div>
                 <div class="neuro-status-item">
                     <div class="label">Sedation</div>
-                    <div id="neuro-sedation" class="value" style="color: var(--color-success);">Optimal</div>
+                    <div id="neuro-sedation" class="value" style="color: var(--text-muted);">—</div>
                 </div>
                 <div class="neuro-status-item">
                     <div class="label">Pain</div>
-                    <div id="neuro-pain" class="value" style="color: var(--color-success);">Controlled</div>
+                    <div id="neuro-pain" class="value" style="color: var(--text-muted);">—</div>
                 </div>
             </div>
         </div>
@@ -1030,25 +1031,25 @@ body {
             <div class="calc-values-row" style="margin-top: 16px;">
                 <div class="calc-display">
                     <div class="label">PaCO2 Change</div>
-                    <div id="paco2-change-value" class="value good">+2</div>
+                    <div id="paco2-change-value" class="value">—</div>
                     <div class="hint">Target &lt;8 mmHg rise</div>
                 </div>
                 <div class="calc-display">
                     <div class="label">SpO2 Status</div>
-                    <div id="spo2-status" class="value good">OK</div>
+                    <div id="spo2-status" class="value">—</div>
                     <div class="hint">≥90%</div>
                 </div>
                 <div class="calc-display">
                     <div class="label">RR Status</div>
-                    <div id="rr-status" class="value good">OK</div>
+                    <div id="rr-status" class="value">—</div>
                     <div class="hint">&lt;35/min</div>
                 </div>
             </div>
             
             <!-- ABG Pass/Fail Status -->
-            <div id="abg-status" class="abg-status-box pass">
-                <span style="font-size: 1.2rem;">✓</span>
-                <span>Post-SBT Assessment: PASSED — All criteria met for extubation</span>
+            <div id="abg-status" class="abg-status-box pending">
+                <span style="font-size: 1.2rem;">○</span>
+                <span>Post-SBT Assessment: Enter values to evaluate</span>
             </div>
         </div>
 
@@ -1121,7 +1122,7 @@ body {
                         </div>
                     </div>
                 </div>
-                <div id="full-rsbi-value" class="value good">40</div>
+                <div id="full-rsbi-value" class="value">—</div>
                 <div class="unit">breaths/min/L</div>
                 <div id="rsbi-threshold-note" class="threshold-note">Threshold: <105 (standard)</div>
             </div>
@@ -1334,22 +1335,22 @@ body {
             <div class="calc-values-row">
                 <div class="calc-display">
                     <div class="label">P/F Ratio</div>
-                    <div id="full-pf-value" class="value good">250</div>
+                    <div id="full-pf-value" class="value">—</div>
                     <div class="hint">Target >150</div>
                 </div>
                 <div class="calc-display">
                     <div class="label">pH Status</div>
-                    <div id="full-ph-status" class="value good">Normal</div>
+                    <div id="full-ph-status" class="value">—</div>
                     <div class="hint">Target ≥7.35</div>
                 </div>
                 <div class="calc-display">
                     <div class="label">PaCO2</div>
-                    <div id="full-paco2-status" class="value good">Normal</div>
+                    <div id="full-paco2-status" class="value">—</div>
                     <div class="hint">35-45</div>
                 </div>
                 <div class="calc-display">
                     <div class="label">Hb Status</div>
-                    <div id="full-hb-status" class="value good">OK</div>
+                    <div id="full-hb-status" class="value">—</div>
                     <div class="hint">≥7-8</div>
                 </div>
             </div>
@@ -1376,6 +1377,7 @@ body {
                         </div>
                     </label>
                     <select id="full-cough">
+                        <option value="" selected disabled>Select...</option>
                         <option value="strong">Strong</option>
                         <option value="moderate">Moderate</option>
                         <option value="weak">Weak</option>
@@ -1394,6 +1396,7 @@ body {
                         </div>
                     </label>
                     <select id="full-gag">
+                        <option value="" selected disabled>Select...</option>
                         <option value="present">Present</option>
                         <option value="absent">Absent</option>
                     </select>
@@ -1412,6 +1415,7 @@ body {
                         </div>
                     </label>
                     <select id="full-suction-freq">
+                        <option value="" selected disabled>Select...</option>
                         <option value="per-shift">Per shift (low)</option>
                         <option value="q4h">Every 4 hours</option>
                         <option value="q2h">Every 2 hours (high)</option>
@@ -1486,7 +1490,7 @@ body {
                         </div>
                         <div class="calc-display">
                             <div class="label">Calculated BMI</div>
-                            <div id="full-bmi-value" class="value good">24.2</div>
+                            <div id="full-bmi-value" class="value">—</div>
                             <div class="unit">kg/m²</div>
                         </div>
                     </div>
@@ -1615,8 +1619,8 @@ body {
                         </div>
                         <div class="calc-display">
                             <div class="label">Calculated APACHE II Score</div>
-                            <div id="apache-calc-value" class="value good">8</div>
-                            <div id="apache-interpretation" class="hint">Low risk (≤12)</div>
+                            <div id="apache-calc-value" class="value">—</div>
+                            <div id="apache-interpretation" class="hint">—</div>
                         </div>
                     </div>
                 </div>
@@ -1997,7 +2001,7 @@ function updateABGStatus() {
         statusBox.innerHTML = '<span style="font-size: 1.2rem;">⚠</span><span>SBT: CAUTION — ' + warnings.join(', ') + '</span>';
     } else {
         statusBox.className = 'abg-status-box pass';
-        statusBox.innerHTML = '<span style="font-size: 1.2rem;">✓</span><span>Post-SBT Assessment: PASSED — All criteria met</span>';
+        statusBox.innerHTML = '<span style="font-size: 1.2rem;">○</span><span>Post-SBT Assessment: PASSED — All criteria met</span>';
     }
 }
 
