@@ -1,0 +1,164 @@
+ARISE - Proprietary Software License
+=====================================
+
+Copyright (c) 2024-2025 ARISE Development Team
+All Rights Reserved.
+
+TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+1. DEFINITIONS
+
+   "Software" refers to ARISE (Awakening & Respiratory Integration for Safe 
+   Extubation), including all source code, documentation, and associated 
+   materials contained in this repository.
+
+   "Licensor" refers to the copyright holder(s) of the Software.
+
+   "Clinical Use" refers to the use of the Software for patient care 
+   decision support in healthcare settings.
+
+   "Commercial Use" refers to any use intended for or directed toward 
+   commercial advantage or monetary compensation.
+
+2. GRANT OF LICENSE FOR CLINICAL USE
+
+   Subject to the terms of this License, the Licensor grants you a limited, 
+   non-exclusive, non-transferable, revocable license to:
+
+   a) Access and use the Software through its hosted web interface for 
+      Clinical Use purposes only.
+
+   b) Use the Software as a clinical decision support tool in healthcare 
+      settings.
+
+   This license does NOT grant you any rights to:
+
+   - Copy, modify, or create derivative works of the Software
+   - Distribute, sublicense, or transfer the Software
+   - Use the Software for Commercial Use without explicit written permission
+   - Reverse engineer, decompile, or disassemble the Software
+   - Remove or alter any copyright notices or proprietary markings
+
+3. INTELLECTUAL PROPERTY RIGHTS
+
+   The Software and all copies thereof are proprietary to the Licensor and 
+   title thereto remains exclusively with the Licensor. All applicable 
+   rights to patents, copyrights, trademarks, and trade secrets in the 
+   Software are and shall remain exclusively with the Licensor.
+
+   The clinical algorithms, evidence synthesis methodology, user interface 
+   design, and decision logic contained within the Software are protected 
+   intellectual property.
+
+4. RESTRICTIONS
+
+   You may NOT:
+
+   a) Redistribute the Software or any portion thereof without express 
+      written permission from the Licensor.
+
+   b) Use the Software to create competing products or services.
+
+   c) Host, deploy, or make available the Software on any server or 
+      platform other than those authorized by the Licensor.
+
+   d) Remove, obscure, or modify any license agreements, copyright notices, 
+      or other proprietary notices placed on or in the Software.
+
+   e) Use the Software for training machine learning models or artificial 
+      intelligence systems without explicit written permission.
+
+   f) Scrape, crawl, or automatically extract data or code from the Software.
+
+5. DATA PRIVACY AND PATIENT INFORMATION
+
+   The Software processes all data locally in the user's browser. No patient 
+   data is collected, stored, or transmitted to any external server.
+
+   Users are responsible for:
+   
+   a) Ensuring their use complies with applicable healthcare privacy 
+      regulations (e.g., PDPA, HIPAA, GDPR).
+
+   b) Not entering personally identifiable patient information into the 
+      Software when screenshots or screen sharing may occur.
+
+   c) Following their institution's data protection policies.
+
+6. CLINICAL DISCLAIMER
+
+   THE SOFTWARE IS PROVIDED AS A CLINICAL DECISION SUPPORT TOOL ONLY AND 
+   DOES NOT REPLACE CLINICAL JUDGMENT.
+
+   The Software is intended to assist healthcare professionals in making 
+   clinical decisions. It does not provide medical diagnoses or prescribe 
+   treatments. All clinical decisions must be made by qualified healthcare 
+   professionals who remain fully responsible for patient care.
+
+   The Licensor makes no warranties regarding the clinical accuracy, 
+   completeness, or appropriateness of the Software's recommendations for 
+   any particular patient or clinical situation.
+
+7. WARRANTY DISCLAIMER
+
+   THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS 
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF 
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+
+   IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR 
+   OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, 
+   ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR 
+   OTHER DEALINGS IN THE SOFTWARE.
+
+8. LIMITATION OF LIABILITY
+
+   IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY DIRECT, INDIRECT, 
+   INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, 
+   BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS 
+   OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND 
+   ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR 
+   TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE 
+   USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+9. TERMINATION
+
+   This License is effective until terminated. Your rights under this 
+   License will terminate automatically without notice if you fail to 
+   comply with any of its terms. Upon termination, you must cease all use 
+   of the Software.
+
+10. ACADEMIC AND RESEARCH USE
+
+    Researchers and academics who wish to cite or reference this Software 
+    in publications should use the citation information provided in the 
+    CITATION.cff file.
+
+    Academic research involving the Software's methodology or algorithms 
+    requires prior written permission from the Licensor.
+
+11. COMMERCIAL LICENSING
+
+    For inquiries regarding commercial licensing, institutional deployment, 
+    or partnership opportunities, please contact the Licensor.
+
+12. GOVERNING LAW
+
+    This License shall be governed by and construed in accordance with the 
+    laws of Singapore, without regard to its conflict of law provisions.
+
+13. ENTIRE AGREEMENT
+
+    This License constitutes the entire agreement between you and the 
+    Licensor concerning the Software and supersedes all prior or 
+    contemporaneous oral or written communications, proposals, and 
+    representations with respect to the Software.
+
+---
+
+By using the Software, you acknowledge that you have read this License, 
+understand it, and agree to be bound by its terms and conditions.
+
+For licensing inquiries: [Contact information to be added]
+
+ARISE - Awakening & Respiratory Integration for Safe Extubation
+Copyright (c) 2024-2025. All Rights Reserved.
