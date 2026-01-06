@@ -1,0 +1,63 @@
+cff-version: 1.2.0
+title: >-
+  ARISE: Awakening & Respiratory Integration for Safe
+  Extubation
+message: >-
+  If you use this software in academic work, please cite it
+  using the metadata from this file.
+type: software
+authors:
+  - name: "ARISE Development Team"
+    affiliation: "Medical Intensive Care Unit, National University Hospital"
+repository-code: 'https://github.com/shoyu21/ARISE'
+url: 'https://shoyu21.github.io/ARISE'
+abstract: >-
+  ARISE is an evidence-synthesized clinical decision support
+  tool designed to assist ICU healthcare professionals in
+  making informed decisions about ventilator weaning and
+  extubation readiness. The tool integrates three assessment
+  modes (Quick SAT, Quick SBT, Full Assessment) with
+  comprehensive evidence tooltips, auto-calculated
+  parameters, and special population considerations. 
+  Built upon the MICU NUH Awake & Breathe Protocol
+  and validated through systematic evidence synthesis via Consensus.
+keywords:
+  - ICU
+  - extubation
+  - mechanical ventilation
+  - weaning
+  - clinical decision support
+  - evidence-based medicine
+  - intensive care
+  - respiratory therapy
+  - SAT
+  - SBT
+  - ICU liberation
+  - RSBI
+  - spontaneous breathing trial
+  - spontaneous awakening trial
+license: LicenseRef-Proprietary
+version: 3.7.2
+date-released: '2025-01-06'
+references:
+  - type: manual
+    title: "MICU NUH Awake & Breathe Protocol"
+    year: 2025
+    institution:
+      name: "Medical Intensive Care Unit, National University Hospital"
+  - type: article
+    title: "Weaning from mechanical ventilation"
+    authors:
+      - family-names: Boles
+        given-names: J-M
+    journal: "European Respiratory Journal"
+    year: 2007
+  - type: article
+    title: "A prospective study of indexes predicting the outcome of trials of weaning from mechanical ventilation"
+    authors:
+      - family-names: Yang
+        given-names: K L
+      - family-names: Tobin
+        given-names: M J
+    journal: "New England Journal of Medicine"
+    year: 1991
